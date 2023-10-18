@@ -1,76 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="39.158" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4.059" tests="6" errors="0" skipped="5" failures="1">
   <properties>
-    <property name="java.specification.version" value="17"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/venkatsiva/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.18.0.20210618-2246/jars/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.class.path" value="/opt/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://adoptium.net/"/>
-    <property name="user.timezone" value="America/New_York"/>
-    <property name="java.vm.specification.version" value="17"/>
-    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="maven.conf" value="/opt/apache-maven-3.6.3/conf"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/Users/venkatsiva/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657/jre/lib"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="/Users/venkatsiva/eclipse-workspace/selenium-java-lite/EMBEDDED"/>
+    <property name="maven.home" value="/opt/apache-maven-3.6.3"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/Users/venkatsiva"/>
+    <property name="user.home" value="/home/excellarate"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-10-19"/>
-    <property name="java.home" value="/Users/venkatsiva/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657/jre"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="17.0.1+12"/>
-    <property name="user.name" value="venkatsiva"/>
+    <property name="java.runtime.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu120.04"/>
+    <property name="user.name" value="excellarate"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="11.5"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="os.version" value="5.15.0-86-generic"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
-    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
-    <property name="java.io.tmpdir" value="/var/folders/34/602ct6f909s6sw44q1wp3yt00000gn/T/"/>
-    <property name="java.version" value="17.0.1"/>
-    <property name="user.dir" value="/Users/venkatsiva/eclipse-workspace/selenium-java-lite"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/venkatsiva/eclipse-workspace/selenium-java-lite"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.20.1"/>
+    <property name="user.dir" value="/home/excellarate/Documents/Frameworks/selenium-java-lite"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/excellarate/Documents/Frameworks/selenium-java-lite"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/venkatsiva/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vm.version" value="17.0.1+12"/>
-    <property name="classworlds.conf" value="/Users/venkatsiva/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4509012975615806948.tmp"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu120.04"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="classworlds.conf" value="/opt/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="/opt/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="validateGoogleResult" classname="com.google.tests.GoogleSearchTest" time="3.853"/>
-  <testcase name="validateGoogleResult" classname="com.google.tests.GoogleSearchTest" time="23.51">
-    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //a[contains(@href, &apos;selenium.dev&apos;)]/h3&apos; (tried for 15 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(@href, 'selenium.dev')]/h3' (tried for 15 second(s) with 500 milliseconds interval)
-	at com.google.tests.GoogleSearchTest.validateGoogleResult(GoogleSearchTest.java:66)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href, 'selenium.dev')]/h3"}
-  (Session info: chrome=108.0.5359.124)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+  <testcase name="setup" classname="com.google.tests.GoogleSearchTest" time="3.923">
+    <failure message="Unable to establish websocket connection to http://localhost:46249/devtools/browser/bd945faf-5969-438f-9c10-fb67c4fd9617&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-86-generic&apos;, java.version: &apos;11.0.20.1&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException">org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:46249/devtools/browser/bd945faf-5969-438f-9c10-fb67c4fd9617
 Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d07bc6f0fedcbedc740a961884b65fe7, findElement {using=xpath, value=//a[contains(@href, 'selenium.dev')]/h3}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/34/602ct6f909s...}, goog:chromeOptions: {debuggerAddress: localhost:62238}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62238/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d07bc6f0fedcbedc740a961884b65fe7
-	at com.google.tests.GoogleSearchTest.validateGoogleResult(GoogleSearchTest.java:66)
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-86-generic', java.version: '11.0.20.1'
+Driver info: driver.version: ChromeDriver
+	at com.google.tests.GoogleSearchTest.setup(GoogleSearchTest.java:30)
 </failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 21437
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 17, 2023 12:59:47 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Invalid Status code=403 text=Forbidden
+java.io.IOException: Invalid Status code=403 text=Forbidden
+	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
+	at org.asynchttpclient.netty.handler.WebSocketHandler.handleRead(WebSocketHandler.java:118)
+	at org.asynchttpclient.netty.handler.AsyncHttpClientHandler.channelRead(AsyncHttpClientHandler.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+]]></system-err>
+  </testcase>
+  <testcase name="launchURL" classname="com.google.tests.GoogleSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="launchURL" classname="com.google.tests.GoogleSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateGoogleResult" classname="com.google.tests.GoogleSearchTest" time="0">
+    <skipped message="Unable to establish websocket connection to http://localhost:46249/devtools/browser/bd945faf-5969-438f-9c10-fb67c4fd9617&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-86-generic&apos;, java.version: &apos;11.0.20.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="validateGoogleResult" classname="com.google.tests.GoogleSearchTest" time="0">
+    <skipped message="Unable to establish websocket connection to http://localhost:46249/devtools/browser/bd945faf-5969-438f-9c10-fb67c4fd9617&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-86-generic&apos;, java.version: &apos;11.0.20.1&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.google.tests.GoogleSearchTest" time="0">
+    <skipped/>
   </testcase>
 </testsuite>

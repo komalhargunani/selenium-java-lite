@@ -9,6 +9,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.manager.SeleniumManager;
@@ -32,7 +33,9 @@ public class DriverConfig {
 		switch (getBrowser()) {
 		case "chrome":
 			SeleniumManager.getInstance();
-			driver = new ChromeDriver();
+			 ChromeOptions option = new ChromeOptions();
+	         option.addArguments("--remote-allow-origins=*");
+	         driver = new ChromeDriver(option);
 			break;
 		case "firefox":
 			SeleniumManager.getInstance();
